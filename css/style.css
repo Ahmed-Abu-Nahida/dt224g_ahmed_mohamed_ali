@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #eff2f4;
+  --color: #192e3b;
+  --font-size-base: 1rem;
+  --font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: #192e3b;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flexbox;
+  background-color: var(--primary-color);
+  color: var(--color);
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.logotyp {
+  display: flexbox;
+  width: 50px;
+  align-items: flex-start;
+  gap: 1rem;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+}
