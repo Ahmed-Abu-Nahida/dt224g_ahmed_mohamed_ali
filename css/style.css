@@ -5,14 +5,9 @@
   --font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 0 auto;
   background-color: var(--primary-color);
   color: #192e3b;
 }
@@ -26,6 +21,8 @@ img {
 .header {
   display: flex;
   background-color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
   color: var(--color);
   padding: 1.2rem;
   align-items: center;
@@ -87,7 +84,40 @@ img {
   font-size: var(--font-size-base);
   text-align: center;
   justify-content: center;
-  padding: 2rem;
-  margin: 1rem;
-  max-width: 600px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 700px;
+}
+
+.three-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+.three-card > h2 {
+  font-size: var(--font-size-base);
+  grid-column: 1 / 4;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.kort {
+  text-align: center;
+  min-width: 300px;
+}
+.kort img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.kort h3 {
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.kort p {
+  font-family: var(--font-family);
+  font-size: 0, 9rem;
+  max-width: 250px;
+  margin: 0 auto;
 }
