@@ -92,6 +92,7 @@ img {
 .three-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  font-family: var(--font-family);
   gap: 2rem;
   padding: 2rem 1rem;
 }
@@ -111,13 +112,84 @@ img {
   margin-bottom: 1rem;
 }
 .kort h3 {
-  font-family: var(--font-family);
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 .kort p {
-  font-family: var(--font-family);
   font-size: 0, 9rem;
   max-width: 250px;
   margin: 0 auto;
 }
+
+.plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+}
+.plan h2 {
+  grid-column: 1 / 4;
+}
+.plan p {
+  grid-column: 1 / 2;
+  max-width: 500px;
+}
+.plan .button {
+  display: inline-block;
+  grid-column: 3 / 4;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  background-color: rgb(141, 141, 134);
+  gap: 1rem;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-header img {
+  height: 50px;
+  width: auto;
+  padding: 0.5rem;
+}
+.footer-header h3 {
+  margin: 0;
+}
+.footer-div p {
+  font-size: 0, 9rem;
+  margin: 0;
+}
+
+.footer-contact h4 {
+  margin-bottom: 0.8rem;
+}
+.footer-contact p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links a {
+  text-decoration: none;
+  color: var(--color);
+  font-size: 0.8rem;
+}
+
