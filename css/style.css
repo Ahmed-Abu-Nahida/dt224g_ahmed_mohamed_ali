@@ -232,6 +232,10 @@ flex-direction: column;
   grid-column: 1 / 4;
 }
 
+.kort {
+  text-align: center;
+}
+
 .plan {
   display: grid;
   grid-template-columns: 1fr auto;
