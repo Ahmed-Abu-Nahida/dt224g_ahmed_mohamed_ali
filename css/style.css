@@ -130,13 +130,17 @@ img {
   gap: 0.5rem;
 }
 
+.plan h2 {
+  font-size: 1.3rem;
+}
 .plan p {
   max-width: 500px;
+  font-size: 0.8rem;
   margin: 0 auto;
 }
 
 .plan .button {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     border-radius: 14px;
     color: black;
