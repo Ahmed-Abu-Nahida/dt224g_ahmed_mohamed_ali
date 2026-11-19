@@ -87,12 +87,22 @@ img {
   max-width: 700px;
 }
 
+.introduction h2 {
+  font-size: 1.3rem;
+}
+
+.introduction p {
+  font-size: 0.9rem;
+}
 .three-card {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 2rem;
   gap: 2rem;
+}
+.three-card h2 {
+  font-size: 1.4rem;
 }
 
 .kort {
